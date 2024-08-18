@@ -1,0 +1,8 @@
+aiofiles
+anthropic
+boto3
+python-dotenv
+playsound
+pydantic
+pygame
+PyObjC
