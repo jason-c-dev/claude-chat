@@ -22,8 +22,8 @@ Claude Speech Chat is a Python-based interactive chat application that combines 
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/claude-speech-chat.git
-   cd claude-speech-chat
+   git clone https://github.com/jason-c-dev/claude-chat.git
+   cd claude-chat
    ```
 
 2. Create a virtual environment (optional but recommended):
@@ -34,7 +34,7 @@ Claude Speech Chat is a Python-based interactive chat application that combines 
 
 3. Install the required Python packages:
    ```
-   pip install aiofiles boto3 python-dotenv anthropic playsound
+   pip install -r requirements.txt
    ```
 
 ## Configuration
@@ -50,7 +50,7 @@ Claude Speech Chat is a Python-based interactive chat application that combines 
 
 Run the application:
 ```
-python claude_speech_chat.py
+python main.py
 ```
 
 Once the application starts, you can begin chatting with the AI. Type your messages and press Enter to send them. The AI's responses will be spoken aloud using text-to-speech.
@@ -63,8 +63,9 @@ Once the application starts, you can begin chatting with the AI. Type your messa
 - `system`: Shows the current system prompt.
 - `system prompt: [new prompt]`: Updates the system prompt, clears history, and restarts.
 - `model`: Displays the current Claude model.
-- `model: [model]`: Changes the Claude model.
+- `model change: [model]`: Changes the Claude model.
 - `exit` or `quit`: Exits the chat application.
+
 
 ## Customization
 
